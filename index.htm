@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en" onclick="toggleMute()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="InfiniteCodep">
+    <meta property="og:description" content="''est. 2018''">
+    <meta name="”keywords”" content="InfiniteCode">
+    <meta property="og:image" content="https://infiniteco.de/img/third-trz_50.png">
+     <meta name="theme-color" content="000000">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="css/main.css" rel="stylesheet">
+    <title>InfiniteCode</title>
+</head>
+<body>
+  <div class="kill-feed "><div>
+    <span class="player t"></span>
+      <span class="weapons">
+        <img height="20">
+          <img width="30" height="26" src="img/headshot.png">
+      </span>
+    <span class="player ct"></span></div>
+  </div>
+    <video autoplay="" muted="" loop="" id="myVideo">
+        <source src="vid.mp4" type="video/mp4">
+      </video>
+    <center><div id="clockDisplay" class="clockStyle"></div></center>
+    <div id="eny">
+      <a>click anywhere for music</a>
+    </div>
+  <div id="page">
+
+
+    <br>
+
+    <div id="gif">
+        <img src="img/ae.gif" alt="InfiniteCode">
+    </div>
+  
+
+    <br>
+
+    
+ 
+  
+</main></div></body>
+<script type="text/javascript">
+function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+$(document).on("keydown", disableF5);
+
+</script>
+<script>
+window.setTimeout("closeHelpDiv();", 3500);
+
+function closeHelpDiv(){
+document.getElementById("eny").style.display=" none";
+}
+</script>
+<script>
+
+
+</script>
+<script src="ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link href='css.css?family=Rajdhani:600' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="event.js"></script>
+<script type="text/javascript" src="title.js"></script>
+<script type="text/javascript" src="clock.js"></script>
+<script type="text/javascript" src="vid.js"></script>
+<script src="killfeed.js"></script>
+</html>
