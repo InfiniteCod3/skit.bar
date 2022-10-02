@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/index.js"></script>
+</head>
+
+<body style="background-color: black" onload="vid()" onclick="run()">
+
+    <div id="bodyDiv" style="-webkit-filter: blur(50px)">
+        <canvas id="canvas" style="position: absolute"></canvas>
+        <video src="assets/vid1.mp4" id="bgVid" muted preload="auto" loop style="height: 100%; width: 100%; object-fit: fill"></video>
+        <h1 class="overlap noselect rainbow" style="width: 310px; top: 28%; font-size: 50px">InfiniteCode</h1>
+        <h1 class="overlap noselect grayback" style="right: 2%; width: 350px; top: 40%"><a href="https://github.com/InfiniteCod3" target="_blank"><span style="padding-left: 15px"
+                                                                                 class="rainbow fab fa-github big"></span></a>
+          <span style="padding-left: 20px"></span><a href="https://discord.com/users/786267018462363688" target="_blank"><span class="rainbow fab fa-discord big"></span></a>
+            <span
+                style="padding-left: 20px"></span><a href="https://www.youtube.com/channel/UCripcxHESnasSyTFnhwqBnQ" target="_blank"><span class="rainbow fab fa-youtube big"></span></A></h1>
+        
+
+                <script>
+                    init()
+                </script>
+    </div>
+    <h1 id="runner" class="overlap" onclick="run()" style="
+  width: 200px; top: 38%; color: white;">Click me :)</h1>
+</body>
+
+</html>

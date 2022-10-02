@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+#runner {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+span {
+    padding-top: 6px;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+.transparent {
+    color: rgba(255, 255, 255, 0.05);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.big {
+    font-size: 75px;
+}
+
+.grayback {
+    background-color: rgba(58, 48, 48, 0.5);
+    border-radius: 25px;
+}
+
+#bodyDiv {
+    font-family: 'Hind', sans-serif;
+}
+
+.overlap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoverglow {
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+}
+
+.hoverglow:hover {
+    text-shadow: 0 0 1px #b6b0b0;
+    /*text-shadow: 0 0 10px #b6b0b0;*/
+}
+
+.rainbow {
+    animation-duration: 3.115s;
+}
+
+.rainbow {
+    background: linear-gradient(53.13deg, #FFD33D 0, #FB8532 16.02%, #EA4A5A 28.06%, #8A63D2 56.92%, #2188FF 72.93%, #34D058 84%, #FFD33D 100%);
+    background-clip: border-box;
+    display: inline-block;
+    color: transparent;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6.28s alternate infinite;
+    animation-duration: 6.28s;
+    background-size: 300%;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 200% center
+    }
+    62.8% {
+        background-position: 100% center
+    }
+    100% {
+        background-position: 200% center
+    }
+}
+
+canvas {
+    cursor: pointer;
+}
+
+.start {
+    color: white;
+    font-family: 'Give You Glory', cursive;
+    font-size: 40px;
+    margin-top: -40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
